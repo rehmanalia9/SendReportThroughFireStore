@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LawyerVerificationForm">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please Upload Bar Council ID Card Image"
+        android:textSize="20dp"
+    android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Re-Enter Full Name"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:background="@drawable/input_design"/>
+    <EditText
+        android:id="@+id/lawyer_licenceno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Licence No."
+        android:inputType="phone"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/input_design"/>
+
+    <EditText
+        android:id="@+id/lawyeremail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/input_design"/>
+
+    <Button
+        android:id="@+id/lawyer_submit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Submit"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
